@@ -1,25 +1,31 @@
-.head{
+.head {
+  text-align: center;
+  background-color: rgba(255, 68, 0, 0.774);
+  font-size: 5vmin;
+}
+
+
+.image {
+  width: 80vmin;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2vmin;
+  margin-bottom: 2vmin;
+  
+}
+
+.foot {
     text-align: center;
-    background-color: rgba(255, 68, 0, 0.774);
-    font-size: 5vmin;
-}
-
-.article{
-    border-style: solid;
-    padding-bottom: 0px;
-    width: fit-content;
-    height: fit-content;
+    position: relative;
+    bottom: 0;
     
-
-}
-
-.img{
-    width: 94vmin;
-    padding-bottom: 0px;
-    width: 100%;
-    
-}
-
-body{
-    background-color: plum;
-}
+    height: 6vmin; /* Height of the footer */
+    color: black;
+    background-color: greenyellow;
+    font-size: 2vmin;
+    margin-top: 2vmin;
+    border-style: double;
+  
+  }
+  
